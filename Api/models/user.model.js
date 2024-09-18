@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
     profilePicture: {
       type: String,
       default:
-        'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
+        'https://tse4.mm.bing.net/th?id=OIP.I6ImJxApZfWWyt8E3PUJrAHaHa&pid=Api&P=0&h=220',
     },
     isAdmin: {
       type: Boolean,

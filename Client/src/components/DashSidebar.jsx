@@ -2,7 +2,7 @@ import { Sidebar } from 'flowbite-react';
 import {
   HiUser,
   HiArrowSmRight,
-  HiDocumentText,
+  HiDocumentText, 
   HiOutlineUserGroup,
   HiAnnotation,
   HiChartPie,

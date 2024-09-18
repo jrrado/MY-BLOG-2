@@ -19,7 +19,7 @@ export default function SignUp() {
     try {
       setLoading(true);
       setErrorMessage(null);
-      const res = await fetch('/api/auth/signup', {
+      const res = await fetch('/Api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -49,7 +49,7 @@ export default function SignUp() {
             Blog
           </Link>
           <p className='text-sm mt-5'>
-            You can sign up with your email and passwordor with Google.
+            You can sign up with your email and passwordorw with Google.
           </p>
         </div>
         {/* right */}

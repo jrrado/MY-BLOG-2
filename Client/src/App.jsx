@@ -15,6 +15,8 @@ import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
 
+
+
 export default function App() {
   return (
     <BrowserRouter>
